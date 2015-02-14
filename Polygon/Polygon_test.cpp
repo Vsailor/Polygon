@@ -4,7 +4,8 @@ using namespace std;
 
 void main()
 {
-	point A,B,C;
+	point A,B,C,P;
+	setPoint(2,2,P);
 	setPoint(1,5,A);
 	setPoint(1,1,B);
 	setPoint(5,1,C);
@@ -13,6 +14,6 @@ void main()
 	p.points = Add(p.points, A);
 	p.points = Add(p.points, B);
 	p.points = Add(p.points, C);
-	cout << S(p);
+	belongs(P,p);
 	system("pause");
 }

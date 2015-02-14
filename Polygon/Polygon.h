@@ -8,5 +8,5 @@ struct polygon
 extern void input(list points, polygon& p);
 extern void output(polygon p);
 extern double S(polygon& p);
-extern bool belongs(point p, polygon pol);
+extern bool belongs(point p, polygon& pol);
 extern bool isConvex(polygon p);
